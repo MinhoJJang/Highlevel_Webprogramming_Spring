@@ -1,5 +1,6 @@
 package gcu.backend.userservice;
 
+
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -12,6 +13,7 @@ import org.springframework.data.annotation.Id;
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
 @Entity
 public class User {
+
     @jakarta.persistence.Id
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -32,6 +34,8 @@ public class User {
         this.age = age;
         this.contents = contents;
     }
+
+
 
     public void setId(Long id) {
         this.id = id;

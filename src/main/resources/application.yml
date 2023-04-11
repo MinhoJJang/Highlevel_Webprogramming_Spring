@@ -6,12 +6,13 @@ spring:
     name: userservice
 
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/root?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&allowPublicKeyRetrieval=true&useSSL=false
-    username: root
-    password: 0705
+    url: jdbc:mysql://localhost:3306/user?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&allowPublicKeyRetrieval=true&useSSL=false
+    username: mhj
+    password: 1111
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
       ddl-auto: create
 
