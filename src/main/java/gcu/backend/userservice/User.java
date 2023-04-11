@@ -1,4 +1,4 @@
-package gcu.backend.userservice.domain;
+package gcu.backend.userservice;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
