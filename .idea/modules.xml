@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Highlevel_Webprogramming_Spring.iml" filepath="$PROJECT_DIR$/.idea/Highlevel_Webprogramming_Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gcu-msa/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/gcu-msa/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gcu-msa/member-service/member-service.iml" filepath="$PROJECT_DIR$/gcu-msa/member-service/member-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gcu-msa/order-service/order-service.iml" filepath="$PROJECT_DIR$/gcu-msa/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gcu-msa/product-service/product-service.iml" filepath="$PROJECT_DIR$/gcu-msa/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gcu-msa/user-service/user-service.iml" filepath="$PROJECT_DIR$/gcu-msa/user-service/user-service.iml" />
     </modules>
   </component>
 </project>
