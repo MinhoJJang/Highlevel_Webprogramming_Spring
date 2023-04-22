@@ -7,21 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="product-service" />
         <module name="member-service" />
-        <module name="user-service" />
+        <module name="product-service" />
         <module name="order-service" />
+        <module name="user-service" />
         <module name="eureka-server" />
         <module name="Highlevel_Webprogramming_Spring" />
       </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
+        </processorPath>
+        <module name="gateway.main" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="eureka-server" target="17" />
       <module name="Highlevel_Webprogramming_Spring" target="17" />
-      <module name="member-service" target="17" />
-      <module name="order-service" target="17" />
-      <module name="product-service" target="17" />
-      <module name="user-service" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

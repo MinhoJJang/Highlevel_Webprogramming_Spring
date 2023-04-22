@@ -1,11 +1,15 @@
 package gcu.backend.memberservice;
 
-import lombok.Data;
+import lombok.*;
 
-//page 23
+import java.io.Serializable;
+
 @Data
-public class Member {
-    private Long id;
+@NoArgsConstructor
+@AllArgsConstructor
+public class Member implements Serializable {
+
+    private long id;
     private String name;
     private String password;
 }
