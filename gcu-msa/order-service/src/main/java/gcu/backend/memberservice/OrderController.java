@@ -31,7 +31,6 @@ public class OrderController {
     public Order orderCreate(@PathVariable("id") Long id){
         Order order =  new Order(memberServiceFeignClient.getMemberId(id).getName(), productServiceFeignClient.getProductId(id).getProductname());
         order.setId(memberServiceFeignClient.getMemberId(id).getId());
-
         return  orderRepository.save(order);
     }
     @GetMapping("/api/order")

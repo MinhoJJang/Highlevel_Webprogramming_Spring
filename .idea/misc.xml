@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/gcu-msa/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/gcu-msa/member-service/pom.xml" />
         <option value="$PROJECT_DIR$/gcu-msa/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gcu-msa/employee-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gcu-msa/delivery-service/pom.xml" />
       </list>
     </option>
   </component>
